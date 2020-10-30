@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45BBF1"
+    tools:context=".Splash.Splash">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/logo"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/newlogo"
+        android:layout_centerInParent="true"></ImageView>
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bangers"
+        android:text="Barber Shop Admin"
+        android:textColor="#ffffff"
+        android:textSize="30sp"></TextView>
+</RelativeLayout>

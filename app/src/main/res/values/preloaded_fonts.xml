@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/muli_bold</item>
+        <item>@font/muli_semibold</item>
+        <item>@font/nunito_semibold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

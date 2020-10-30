@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D2B47</color>
+    <color name="colorPrimaryDark">#B6B6B6</color>
+    <color name="colorAccent">#45BBF1</color>
+    <color name="background">#E3E7EC</color>
+    <color name="itemsbackground">#1D2B47</color>
+    <color name="blackcolor">@android:color/black</color>
+    <color name="collapsebar">#1D2B47</color>
+    <color name="colorGrey">#dddddd</color>
+
+</resources>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "506205192474",
+    "firebase_url": "https://barber-shop-bce82.firebaseio.com",
+    "project_id": "barber-shop-bce82",
+    "storage_bucket": "barber-shop-bce82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506205192474:android:1ce97620ce5f8f94542ca3",
+        "android_client_info": {
+          "package_name": "com.example.barbershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506205192474-66gk3birl0s6fqed2fecmmvtrs7361d1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.barbershop",
+            "certificate_hash": "26c90633283950c40f8fe5b2ab167713e27798ce"
+          }
+        },
+        {
+          "client_id": "506205192474-m308ihkhlsms8v8qftid6ekbs6q49phn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHuEfcetBu76gnms07I0RuRwWp-ldmKTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506205192474-m308ihkhlsms8v8qftid6ekbs6q49phn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506205192474:android:89cdfe566f7a72b8542ca3",
+        "android_client_info": {
+          "package_name": "com.example.barbershopadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506205192474-m308ihkhlsms8v8qftid6ekbs6q49phn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHuEfcetBu76gnms07I0RuRwWp-ldmKTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506205192474-m308ihkhlsms8v8qftid6ekbs6q49phn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

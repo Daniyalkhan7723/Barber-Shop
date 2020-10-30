@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadBarber">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="center"
+            android:id="@+id/imageview"
+            android:src="@drawable/upload"
+            ></ImageView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/forget_password_phone_number1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Name"
+            android:textColorHint="#000"
+            app:boxBackgroundColor="#fff"
+            app:boxStrokeColor="#000"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="#000"
+            app:hintTextColor="#000"
+            app:startIconTint="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:id="@+id/name"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/forget_password_phone_number2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Percentage"
+            android:textColorHint="#000"
+            app:boxBackgroundColor="#fff"
+            app:boxStrokeColor="#000"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="#000"
+            app:hintTextColor="#000"
+            app:startIconTint="#000">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/muli_semibold"
+                android:id="@+id/mpercentage"
+                android:inputType="text"
+                android:textColor="#000"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Select Image"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:onClick="SelectButton"
+            android:id="@+id/select"
+            android:background="@drawable/buttons"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Upload"
+            android:textSize="20dp"
+            android:onClick="UploadBtn"
+            android:textColor="#ffffff"
+            android:id="@+id/upload"
+            android:background="@drawable/buttons"></Button>
+</LinearLayout>
+</ScrollView>
